@@ -1,0 +1,24 @@
+{
+  "name": "second",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.22.9",
+    "@babel/register": "^7.22.5",
+    "cucumber": "^6.0.7",
+    "testcafe": "^3.1.0",
+    "testcafe-reporter-html": "^1.4.6"
+  },
+  "dependencies": {
+    "@types/cucumber": "^7.0.0",
+    "dotenv": "^16.3.1",
+    "testcafe-cucumber": "^0.1.0"
+  }
+}

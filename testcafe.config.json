@@ -1,0 +1,16 @@
+// .testcaferc.json
+{
+  "skipJsErrors": true,
+  "hostname": "localhost",
+  "browsers": "chrome",
+  "concurrency": 3,
+  "qrCode": true,
+  "src": "./test/*.test.js",
+  "reporter": [
+    {
+      "name": "HTML",
+      "output": "reports/report.json"
+    }
+  ]
+  // other settings
+}
